@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:weightSum="1">
+
+        <fragment
+            android:layout_width="339dp"
+            android:layout_height="match_parent"
+            android:name="com.steam.pablodiez.steamstats.FragmentList"
+            android:id="@+id/list_frag" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/details_container">
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.steam.pablodiez.steamstats.FragmentDetails"
+                android:id="@+id/details_frag" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

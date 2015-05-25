@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SteamStats</string>
+    <string name="HJuegos">Horas de Juego:</string>
+    <string name="LogrosObtenidos">Logros:</string>
+    <string name="NJuegos">Nº de Juegos:</string>
+    <string name="SinLogros">Este juego no contiene logros</string>
+    <string name="action_settings">Opciones</string>
+    <string name="conseguido">Conseguido:</string>
+    <string name="language">spanish</string>
+    <string name="no">No</string>
+    <string name="si">Sí</string>
+    <string name="detalles">Logros</string>
+    <string name="NombreSteam">Introduzca su nombre de Steam</string>
+    <string name="Recordatorio">Recuerde poner su perfil en público</string>
+    <string name="Boton">Aceptar</string>
+    <string name="action_fav">Favorites</string>
+    <string name="action_back">CerrarSesion</string>
+    <string name="hours">horas</string>
+    <string name="porcentaje">Porcentaje: </string>
+</resources>

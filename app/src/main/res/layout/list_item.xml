@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#FFBABABA">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="0.09"
+        android:descendantFocusability="blocksDescendants" >
+
+        <ImageView
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageViewJuego" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:id="@+id/LinearLayoutFav">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textViewNombre"
+                android:gravity="center" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButtonFav"
+                android:src="@mipmap/ic_empty_favstar"
+                android:layout_gravity="bottom|right"
+                android:focusable="false"
+                android:onClick="myClickHandler"
+                android:background="#FFBABABA" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

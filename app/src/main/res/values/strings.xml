@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SteamStats</string>
+
+    <string name="SinLogros">This game does not have achievements</string>
+    <string name="NJuegos">Nº of games:</string>
+    <string name="HJuegos">Time played:</string>
+    <string name="conseguido">Achieved:</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="LogrosObtenidos">Achievements:</string>
+    <string name="title_activity_autenticacion" translatable="false">Autenticacion</string>
+    <string name="title_activity_details" translatable="false">Detalles</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="language">english</string>
+    <string name="detalles">Achievements</string>
+    <string name="NombreSteam">Please enter your Steam name</string>
+    <string name="Recordatorio">Remember to set your profile to public</string>
+    <string name="Boton">Accept</string>
+    <string name="action_fav">Favorites</string>
+    <string name="action_back">CerrarSesion</string>
+    <string name="hours">hours</string>
+    <string name="porcentaje">Percentage: </string>
+
+</resources>
